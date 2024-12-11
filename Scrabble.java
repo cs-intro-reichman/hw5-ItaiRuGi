@@ -126,7 +126,7 @@ public class Scrabble {
 	        System.out.println("Ran out of letters. Total score: " + score + " points");
 		} else {
 			System.out.println("End of hand. Total score: " + score + " points" );
-			System.out.println();
+			
 		}
 	}
 
