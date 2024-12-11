@@ -65,7 +65,7 @@ public class Scrabble {
 	public static int wordScore(String word) {
 		int points = 0;
 		for(int i = 0; i < word.length(); i++){
-			points += (SCRABBLE_LETTER_VALUES[((char)word.charAt(i))-97])*(word.length()+1);
+			points += (SCRABBLE_LETTER_VALUES[((char)word.charAt(i))-97])*(word.length());
 		}
 		return points;
 	}
