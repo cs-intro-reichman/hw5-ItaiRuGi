@@ -116,9 +116,9 @@ public class Scrabble {
 				
 			}else if(!isWordInDictionary(input)){
 				System.out.println("Invalid word. Try again.");
-				System.out.println();
+				
 			}
-			//// Replace the following break statement with code
+			//// Replace the following break statement witgh code
 			//// that completes the hand playing loop
 			
 		}
